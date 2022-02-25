@@ -121,13 +121,13 @@ st.markdown('''
 - Percentage: `72.4`
 ''')
 
-txt('**Intermediate (12th)** Harmilap Mission School, Kanpur',
+txt('**Intermediate (12th)**, Harmilap Mission School, Kanpur',
 '2006-2007')
 st.markdown('''
 - Percentage: `77`
 ''')
 
-txt('**Higher Secondary (10th)** Harmilap Mission School, Kanpur',
+txt('**Higher Secondary (10th)**, Harmilap Mission School, Kanpur',
 '2004-2005')
 st.markdown('''
 - Percentage: `83`
@@ -138,7 +138,7 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt1('**Project - Bixby Voice Assistant Analytics**', 'Data Scientist, Samsung Research, Bangalore, India',
+txt1('*Bixby Voice Assistant Analytics*', 'Data Scientist, Samsung Research, Bangalore, India',
 '2020-Present')
 st.markdown('''
 
