@@ -70,7 +70,7 @@ def txt1(a, b, c):
   col1, col2 = st.columns([5,1])
   with col1:
     st.markdown(a)
-    st.markdown(b)
+    st.text(b)
   with col2:
     st.markdown(c)
 
@@ -138,7 +138,7 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt1('**Bixby Voice Assistant Analytics**', 'Data Scientist, Samsung Research, Bangalore, India',
+txt1('**Project - Bixby Voice Assistant Analytics**', 'Data Scientist, Samsung Research, Bangalore, India',
 '2020-Present')
 st.markdown('''
 
