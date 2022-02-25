@@ -44,7 +44,10 @@ st.markdown("""
         <a class="nav-link" href="#recognitions">Recognitions</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#personal-project">Personal Projects</a>
+        <a class="nav-link" href="#personal-projects">Personal Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
