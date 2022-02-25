@@ -11,9 +11,6 @@ st.write('''
 ##### *Resume* 
 ''')
 
-# image = Image.open('dp.png')
-# st.image(image, width=150)
-
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Experienced Software Developer, Researcher, Machine Learning Engineer and Trainer with almost ten years of experience in software development industry. 
@@ -27,11 +24,8 @@ st.info('''
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Rahul Arora</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Rahul Arora</a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
@@ -44,13 +38,13 @@ st.markdown("""
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#recognitions">Social Media</a>
+        <a class="nav-link" href="#recognitions">Recognitions</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#personal-project">Social Media</a>
+        <a class="nav-link" href="#personal-project">Personal Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Social Media</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -60,7 +54,7 @@ st.markdown("""
 #####################
 # Custom function for printing text
 def txt(a, b):
-  col1, col2 = st.columns([4,1])
+  col1, col2 = st.columns([5,1])
   with col1:
     st.markdown(a)
   with col2:
@@ -98,25 +92,25 @@ st.markdown('''
 txt('**PG Diploma in Advanced Computing**, C-DAC Bangalore',
 '2011-2012')
 st.markdown('''
-- Percent: `73`
+- Percentage: `73`
 ''')
 
 txt('**B.Tech in Computer Science**, United College of Engineering, Greater Noida',
 '2007-2011')
 st.markdown('''
-- Percent: `72.4`
+- Percentage: `72.4`
 ''')
 
 txt('**Intermediate (12th)** Harmilap Mission School, Kanpur',
 '2006-2007')
 st.markdown('''
-- Percent: `77`
+- Percentage: `77`
 ''')
 
 txt('**Higher Secondary (10th)** Harmilap Mission School, Kanpur',
 '2004-2005')
 st.markdown('''
-- Percent: `83`
+- Percentage: `83`
 ''')
 
 #####################
@@ -169,7 +163,6 @@ st.markdown('''
 ''')
 
 
-
 #####################
 st.markdown('''
 ## Recognitions
@@ -190,6 +183,21 @@ txt4('Award','C-DAC Best Student Award for best performance among all students',
 
 #####################
 st.markdown('''
+## Personal Projects
+''')
+
+txt('**NLP Based Projects**','')
+st.markdown('''
+
+- Fake and real news classification using Bi-Directional LSTM model (implemented from scratch)
+- Image captioning using LSTM and pre-trained VGG-16 model on Flicker Dataset from Kaggle
+- German to English machine translation using SeqToSeq model (implemented from scratch)
+- Fake and real disaster tweet classification using BERT (with pre-trained huggingface model)
+''')
+
+
+#####################
+st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`C`, `C++`, `Python`')
@@ -198,6 +206,7 @@ txt3('Machine Learning', '`scikit-learn`')
 txt3('Deep Learning', '`Pytorch, Torchtext`')
 txt3('Tools', '`MLflow`,`Visual Studio`, `JIRA`, `Source Insight`, `Perforce`,')
 txt3('Work Areas', '`Software Development`, `Machine Learning`, `Deep Learning`, `Hiring Committee`, `Technical Trainer`')
+
 
 #####################
 st.markdown('''
