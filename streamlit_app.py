@@ -25,7 +25,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#https://share.streamlit.io/arorarmr/my_resume/main">Rahul Arora</a>
+  <a class="navbar-brand" href="https://share.streamlit.io/arorarmr/my_resume/main">Rahul Arora</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
