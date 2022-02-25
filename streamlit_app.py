@@ -64,7 +64,7 @@ def txt(a, b):
   with col1:
     st.markdown(a)
   with col2:
-    st.markdown(c)
+    st.markdown(b)
 
 def txt1(a, b, c):
   col1, col2 = st.columns([5,1])
@@ -110,7 +110,7 @@ st.markdown('''
 ''')
 
 txt('**PG Diploma in Advanced Computing**, C-DAC Bangalore',
-'2011-2012',)
+'2011-2012')
 st.markdown('''
 - Percentage: `73`
 ''')
