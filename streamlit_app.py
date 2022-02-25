@@ -198,7 +198,7 @@ st.markdown('''
 ## Personal Projects
 ''')
 
-txt('**NLP Based Projects**','')
+txt('**NLP Projects**','')
 st.markdown('''
 
 - Fake and real news classification using Bi-Directional LSTM model (implemented from scratch)
