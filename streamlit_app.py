@@ -158,14 +158,14 @@ st.markdown('''
 - Fixed several bugs for already implemented API’s using C++ language
 ''')
 
-txt('**Performance Improvement using OpenCL and OpenGL**,  Senior Software Developer, Samsung Research, Bangalore, India',
+txt('**Performance Improvement With OpenCL And OpenGL**,  Senior Software Developer, Samsung Research, Bangalore, India',
 '2014-2016')
 st.markdown('''
 - Created OpenCL kernels for SKIA API’s (2D graphics library for android), Low-Light Imaging and Kids-Mode Application. The solution worked for both MALI and QCOM GPUs
 - Fish eye images were converted and stitched together using OpenGL framework to create a single 360 images for Samsung camera devices
 ''')
 
-txt('**Crypt Analysis using hybrid computing**,  Software Developer, C-DAC R&D, Bangalore, India',
+txt('**Crypt Analysis Using Hybrid Computing**,  Software Developer, C-DAC R&D, Bangalore, India',
 '2012-2014')
 st.markdown('''
 - Retrieved metadata information from encrypted files such as Winzip and MS Word files
