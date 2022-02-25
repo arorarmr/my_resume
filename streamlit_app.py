@@ -123,7 +123,7 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt('**Bixby Voice Assistant Analytics**, Data Scientist, Samsung Research, Bangalore, India',
+txt('**Bixby Voice Assistant Analytics** \nData Scientist, Samsung Research, Bangalore, India',
 '2020-Present')
 st.markdown('''
 
@@ -134,7 +134,7 @@ st.markdown('''
 - Conducted several organizational and team level trainings on data structures for internal coding challenges
 ''')
 
-txt('**Non-Invasive Glucose Monitoring**, Data Scientist, Samsung Research, Bangalore, India',
+txt('**Non-Invasive Glucose Monitoring** \nData Scientist, Samsung Research, Bangalore, India',
 '2018-2020')
 st.markdown('''
 - Developed several algorithms for predicting glucose information from NIR and PPG signals
@@ -143,7 +143,7 @@ st.markdown('''
 - Filed patents and papers based on the algorithms developed
 ''')
 
-txt('**OpenCL APIs Implementation For GPU**, Lead Software Developer, Samsung Research, Bangalore, India',
+txt('**OpenCL APIs Implementation For GPU** \nLead Software Developer, Samsung Research, Bangalore, India',
 '2016-2018')
 st.markdown('''
 - Implemented OpenCL APIs for Samsung GPU according to OpenCL 1.2 specification by Khronos
@@ -151,14 +151,14 @@ st.markdown('''
 - Fixed several bugs for already implemented API’s using C++ language
 ''')
 
-txt('**Performance Improvement using OpenCL and OpenGL**, Senior Software Developer, Samsung Research, Bangalore, India',
+txt('**Performance Improvement using OpenCL and OpenGL** \nSenior Software Developer, Samsung Research, Bangalore, India',
 '2014-2016')
 st.markdown('''
 - Created OpenCL kernels for SKIA API’s (2D graphics library for android), Low-Light Imaging and Kids-Mode Application. The solution worked for both MALI and QCOM GPUs
 - Fish eye images were converted and stitched together using OpenGL framework to create a single 360 images for Samsung camera devices
 ''')
 
-txt('**Crypt Analysis using hybrid computing**, Software Developer, C-DAC R&D, Bangalore, India',
+txt('**Crypt Analysis using hybrid computing** \nSoftware Developer, C-DAC R&D, Bangalore, India',
 '2012-2014')
 st.markdown('''
 - Retrieved metadata information from encrypted files such as Winzip and MS Word files
